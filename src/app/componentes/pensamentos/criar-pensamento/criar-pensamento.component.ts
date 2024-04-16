@@ -12,11 +12,6 @@ export class CriarPensamentoComponent implements OnInit {
     alert("Evento adicionado!");
   }
 
-  cancelarPensamento(){
-    event?.preventDefault();
-    alert("Pensamento cancelado!");
-  }
-
   pensamento ={
     id: '1',
     conteudo: 'Aprendendo Angular',
