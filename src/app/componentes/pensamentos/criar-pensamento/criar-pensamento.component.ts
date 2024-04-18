@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Pensamento } from '../pensamento';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -12,8 +13,8 @@ export class CriarPensamentoComponent implements OnInit {
     alert("Evento adicionado!");
   }
 
-  pensamento ={
-    id: '1',
+  pensamento: Pensamento ={
+    id: 1,
     conteudo: 'Aprendendo Angular',
     autoria: 'Marcos Bento',
     modelo: 'modelo1'
