@@ -26,7 +26,6 @@ export class PensamentoService {
 
   excluir(id: number | string): Observable<Pensamento>{
     const url = `${this.API}/${id}`;
-    console.log("Fui chamado!")
     return this.http.delete<Pensamento>(url);
   }
 
